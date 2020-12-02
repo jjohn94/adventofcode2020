@@ -1,0 +1,25 @@
+# find the two entries that sum to 2020
+
+There is an array(?) of values. I need to first find two numbers that add up to 2020 and then multiply those numbers. 
+
+Take n as the first value in the list, is n + (n+1) = 2020? If not, then check n + (n+2). if none of the checks equal 2020, then change n to be equal to n+1 and follow the same process again. 
+
+What other ways? 
+
+Take N as the first value in the list. Let x be equal to 2020 - n. Loop through the remaining numbers and disregard any that are greater than x. For those not greater than x, check to see if they are equal to x. Check to see if any of the numbers in the list equal x. If none, then change n to be the next number in the list and follow the same process. 
+
+
+var expenseReport = []
+
+var firstNumber = expenseReport[0];
+var secondNumber = 2020 - firstNumber;
+
+for (firstNumber = expenseReport[0]; 
+
+
+var ourArray = [];
+for (var i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+
